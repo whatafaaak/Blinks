@@ -1,0 +1,205 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/************ ImageSlide Css ************/
+.imageslide {
+  padding: 0 0 50px 0;
+  position: relative;
+}
+.imageslide-bx {
+  /*background: #151515;  */
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+.imageslide h2 {
+	font-size: 45px;
+	font-weight: 700;
+}
+.imageslide p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+}
+.imageslide-slider {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.imageslide-slider .item img {
+  width: 80%;
+  margin: 0 auto 15px auto;
+  border: solid black 2px;
+}
+
+
+@font-face {
+  font-family: "Cosmic";
+  src: local("Just-Cosmic"),
+   url("./assets/fonts/Just-Cosmic.otf") format("opentype");
+  font-weight: bold;
+  
+ }
+ .font-face-cosmic {
+  font-family: "Cosmic";
+  font-size: 45px;
+}
+/*Deck*/
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: system-ui;
+  margin: 0;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+/********Parallax****************/
+#textblock {
+  background-color: #210002;
+  height: 100vh;
+}
+
+#textblock-container {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+#textblock-title {
+  color: #ffaf1b;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Helvetica Neue";
+}
+
+#textblock-content {
+  color: #ffaf1b;
+  font-size: 20px;
+}
+
+#textblock-footer {
+  color: #ffaf1b;
+  font-size: 15px;
+  font-weight: 400;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  margin-bottom: 20px;
+
+}
+
+#textblock-devsense {
+  text-decoration: none;
+  color: #ffaf1b;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.P-animation, .animation_layer {
+	height: 1000px;
+}
+
+.P-animation {
+  display: block;
+	position: relative;
+	z-index: 10;
+  
+}
+/*.P-animation::-webkit-scrollbar { width: 0 !important }*/
+
+.animation_layer {
+	background-position: bottom center;
+	background-size: auto 1038px;
+	background-repeat: repeat-x;
+	width: 100%;
+	position: absolute;
+}
+.animation_layer.parallax {
+	position: fixed;
+}
+
+#artback {
+  background-image: url(./assets/img/background.png);
+}
+
+#mountain {
+  background-image: url(./assets/img/mountains.png);
+}
+
+#logoland {
+  background-image: url(./assets/img/logo_land.png);
+}
+
+#jungle1 {
+  background-image: url(./assets/img/jungle1.png);
+}
+
+#jungle2 {
+  background-image: url(./assets/img/jungle2.png);
+}
+
+#jungle3 {
+  background-image: url(./assets/img/jungle3.png);
+}
+
+#jungle4 {
+  background-image: url(./assets/img/jungle4.png);
+}
+
+#jungle5 {
+  background-image: url(./assets/img/jungle5.png);
+}
+
+#manonmountain {
+  background-image: url(./assets/img/man_on_mountain.png);
+}
