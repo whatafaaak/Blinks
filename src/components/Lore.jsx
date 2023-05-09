@@ -1,4 +1,4 @@
-import {  Container, Flex, Text } from '@chakra-ui/react'
+import {  Container, Flex, Text, Heading } from '@chakra-ui/react'
 import React from 'react'
 import meter1 from "../assets/img/banner.jpg";
 
@@ -16,7 +16,7 @@ export default function Lore() {
         
     <Container textAlign={'center'} maxWidth={'1000px'} >
     
-        <h2 className='font-face-cosmic'>Blinks Lore</h2>
+        <Heading >Blinks Lore</Heading>
         <br/>
         <Text color={'#fff6da'}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
             standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make 
